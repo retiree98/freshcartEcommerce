@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+:root {
+  --main-color: #0aad0a;
+  --light-color: #f0f3f2;
+  --shadow: rgba(145, 158, 171, 0.2) 0px 2px 4px -1px,
+    rgba(145, 158, 171, 0.14) 0px 4px 5px 0px,
+    rgba(145, 158, 171, 0.12) 0px 1px 10px 0px;
+  --rating-color: #ffc908;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(assets/images/light-patten.svg);
+}
+input:focus{
+  box-shadow: none !important;
+  border: 1px solid #000 !important;
+  outline: none !important;
+}
+.rating-color {
+  color: var(--rating-color);
+}
+
+a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+img{
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+.font-sm {
+  font-size: 14px;
+}
+.text-main {
+  color: var(--main-color);
+}
+.bg-main {
+  background-color: var(--main-color) !important;
+}
+/* -----------------Global------------------------ */
+.marginTop {
+  margin-top: 100px;
+}
+.formik,.search{
+  width: 75%;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+@media (max-width:768px) {
+  .formik,.search {
+    width: 100%;
+  }
+ 
+  /* .slick-slider{
+    overflow: hidden !important;
+  } */
+}
+
+/* -----------------Global------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

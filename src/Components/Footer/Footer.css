@@ -1,0 +1,18 @@
+.footer {
+  background-color: #eeeeee;
+  padding: 50px 0;
+}
+.footer .footerImg {
+  width: 5rem;
+}
+.footer .storeImg{
+  width: 25%;
+}
+@media (max-width: 768px) {
+  .footer .footerImg {
+    width: 4rem;
+  }
+  .footer .footer-title{
+    font-size: 15px;
+  }
+}

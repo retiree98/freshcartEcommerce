@@ -1,0 +1,20 @@
+.product .productImg{
+    width: 50%;
+   }
+   .product .btn {
+    transition: transform 1s, opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  .product:hover .btn {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  .shopCart{
+    width: 50%;
+  }
+
+
+
+
+   

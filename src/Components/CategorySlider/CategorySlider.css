@@ -1,0 +1,13 @@
+.sliderItem img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50px;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .slick-slider {
+    width: 100% !important;
+    overflow: hidden;
+  }
+}

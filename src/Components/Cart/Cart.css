@@ -1,0 +1,22 @@
+.orderPayment {
+  width: 300px;
+  height: 300px;
+  border: 2px solid rgb(54, 187, 112);
+}
+.shopCart {
+  width: 300px;
+}
+
+.products .btn-delete:hover i {
+  color: #fff !important;
+}
+ @media (max-width: 576px) {
+  .title-details{
+    margin-top: 20px;
+  }
+}
+@media(max-width:767px){
+  .imgCart{
+    width: 50%;
+  }
+}
